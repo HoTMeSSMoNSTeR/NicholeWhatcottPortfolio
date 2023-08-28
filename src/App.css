@@ -113,6 +113,7 @@
 .little-links {
   width: 3rem;
   margin: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 .little-links:hover {
