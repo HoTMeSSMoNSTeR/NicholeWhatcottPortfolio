@@ -11,7 +11,7 @@ export default function Homepage() {
         style={{
             backgroundImage: 'url("https://i.imgur.com/QhnQ8HH.jpg")',
             backgroundRepeat: "no-repeat",
-            backgroundSize: "contain"
+            backgroundSize: "cover"
           }}>
             <div className='homepage-flex container-fluid'>
                 <p className='intro'>Hi, I'm</p>

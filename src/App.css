@@ -33,25 +33,25 @@
   font-family:'Acme', sans-serif;
   color: #131713;
   font-size: 2rem;
-  margin-top: 10rem;
-  margin-right: 45rem;
+  margin-top: 12rem;
+  margin-right: 57rem;
   text-shadow: 0 0 10px whitesmoke;
 }
 
 .name {
   color: #B02673;
   font-family:'Acme', sans-serif;
-  font-size: 7rem;
-  margin-top: 11rem;
-  margin-right: 33rem;
+  font-size: 7em;
+  margin-top: 13rem;
+  margin-right: 45rem;
   position: absolute;
   text-shadow: -10px 10px 7px #131713;
 }
 
 .avatar {
   width: 14rem;
-  margin-top: 9em;
-  margin-right: 5rem;
+  margin-top: 10em;
+  margin-right: 18rem;
   margin-bottom: 5rem;
   border-radius: 1rem;
   box-shadow: -10px 10px 5px #131713;
@@ -60,10 +60,11 @@
 
 .can-do {
   font-family:'Acme', sans-serif;
+  font-size: large;
   color: #B02673;
-  text-shadow: -5px 5px 5px #131713;
-  margin-right: 15em;
-  margin-top: 19rem;
+  text-shadow: -3px 3px 2px #131713;
+  margin-right: 13em;
+  margin-top: 21rem;
 }
 
 .about-me {
@@ -74,12 +75,14 @@
 
 .headers {
   font-family:'Acme', sans-serif;
-  font-size: xx-large;
+  font-size: 3rem;
   color:#B02673;
 }
 
 .skills {
-  margin: 3.5rem;
+  margin-top: 7rem;
+  margin-left: 3.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .sub-header {
@@ -101,6 +104,10 @@
 
 .skill-box {
   width: 50%;
+}
+
+.skill-container {
+  margin-bottom: 3rem;
 }
 
 .about-me-section {
@@ -125,5 +132,5 @@
 .socials-flex {
   display: flex;
   justify-content: center;
-  margin-top: -6rem;
+  margin-top: 2rem;
 }

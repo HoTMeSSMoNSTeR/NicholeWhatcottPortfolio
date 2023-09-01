@@ -17,7 +17,7 @@ export default function Skills() {
             <header className='headers skills'>I don't even have any good skills. 
             You know like nunchuck skills, bow hunting skills... </header>
             <p className='sub-header'>But I do have these skills.</p>
-            <div className='container'>
+            <div className='container skill-container'>
                 <div className='row'>
                     {data}
                 </div>
