@@ -182,8 +182,8 @@
 
 .parent {
   margin-top: 3rem;
-  margin-bottom: 10rem;
-  margin-left: 7rem;
+  margin-bottom: 7rem;
+  margin-left: 2rem;
 }
 
 .relative {
@@ -213,6 +213,21 @@
 
 .image3:hover {
   animation: fadeOutIn 3s infinite;
+}
+
+.project-repo:link {
+  color:#B02673;
+}
+
+.project-repo:visited {
+  color: #26D226;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 @keyframes firstGlitch {

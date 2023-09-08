@@ -13,7 +13,7 @@ export default function Projects() {
     return(
         <>
         <header className="headers skills projects-header">Projects</header>
-        <div>
+        <div className="flexbox">
             {data}
         </div>
         </>
