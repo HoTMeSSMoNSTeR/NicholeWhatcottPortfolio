@@ -12,7 +12,7 @@ export default [
      projectURL:"https://github.com/HoTMeSSMoNSTeR/Gaming-Final-Project", videoURL:""
   }  ,
   {
-    id:"3", name:"Portfolio Website", previewImg1:"", previewImg2:"", previewImg3:"", 
+    id:"4", name:"Portfolio Website", previewImg1:"https://i.imgur.com/FAecG4B.png", previewImg2:"https://i.imgur.com/uAcpTbK.jpg", previewImg3:"https://i.imgur.com/dQ53nfV.jpg",  
      projectURL:"", videoURL:""
   }  
 ]
