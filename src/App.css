@@ -77,6 +77,7 @@
   font-family:'Acme', sans-serif;
   font-size: 3rem;
   color:#B02673;
+  text-shadow: -10px 10px 3px #131713;
 }
 
 .skills {
@@ -133,4 +134,186 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cert-img {
+  width: 25rem;
+}
+
+.cert-img:hover {
+  width: 40rem;
+  box-shadow: -10px -10px 3px #B02673, 10px 10px 3px #26D226;
+}
+
+.cert {
+  margin-top: 2rem;
+  font-family:'Acme', sans-serif;
+  font-size: 2rem;
+  color:#B02673;
+  text-align: center;
+}
+
+.cert-title {
+  margin-top: 1.5em;
+  font-family:'Acme', sans-serif;
+  font-size: 3rem;
+  color:#B02673;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-stuff {
+  width: 20rem;
+  height: 20rem;
+}
+
+
+
+.parent {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.image1,
+.image2,
+.image3 {
+  position: absolute;
+  width: 30rem;
+}
+
+.img-caption {
+  padding-top: 15rem;
+  color: whitesmoke;
+  font-family:'Acme', sans-serif;
+}
+
+.image1:hover {
+  animation: firstGlitch 3s infinite;
+}
+
+.image2:hover {
+  animation: glitch 3s infinite;
+}
+
+.image3:hover {
+  animation: fadeOutIn 3s infinite;
+}
+
+@keyframes firstGlitch {
+  2% {
+    opacity: 0
+}
+
+17% {
+    opacity: 1
+}
+
+20% {
+    opacity: 0
+}
+
+40% {
+    opacity: 0.5
+}
+
+43% {
+    opacity: 0
+}
+
+62% {
+    opacity: 1
+}
+
+68% {
+    opacity: 0.5
+}
+
+75% {
+    opacity: 0
+}
+}
+
+@keyframes glitch {
+  5% {
+    opacity: 0
+}
+
+10% {
+    opacity: 1
+}
+
+27% {
+    opacity: 0
+}
+
+33% {
+    opacity: 0.5
+}
+
+57% {
+    opacity: 0
+}
+
+65% {
+    opacity: 1
+}
+
+80% {
+    opacity: 0.5
+}
+
+100% {
+    opacity: 1
+}
+}
+
+@keyframes fadeOutIn {
+
+  0% {
+      opacity: 0
+  }
+
+  7% {
+      opacity: 1
+  }
+
+  25% {
+      opacity: 0
+  }
+
+  30% {
+      opacity: 0.5
+  }
+
+  50% {
+      opacity: 0
+  }
+
+  56% {
+      opacity: 1
+  }
+
+  79% {
+      opacity: 0.5
+  }
+
+  100% {
+      opacity: 1
+  }
 }

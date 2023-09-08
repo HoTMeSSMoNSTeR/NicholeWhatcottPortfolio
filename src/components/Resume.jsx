@@ -3,6 +3,21 @@ import React from 'react';
 export default function Resume() {
     
     return (
-        <div>This is the resume page</div>
+        <div className='experiences'>
+            <p className='cert-title'>Education & Certification</p>
+            <div className='cert'>
+                <img src='https://i.imgur.com/ysRcYh3.png' className='cert-img'/>
+                <p>Front End Developer Bootcamp</p>
+            </div>
+            <div className='cert'>
+                <img src='https://i.imgur.com/vibmYd1.jpg' className='cert-img' />
+                <p>Bachelor of Scince in Art</p>
+            </div>
+            <div>
+                <img src='https://i.imgur.com/HrBGoyQ.png' className='cert-img' />
+                <img src='https://i.imgur.com/9DM3HsL.png' className='cert-img' />
+                <p>Resume</p>
+            </div>
+        </div>
     )
 }

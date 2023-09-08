@@ -4,6 +4,7 @@ import React from 'react'
 export default function AboutMe() {
 
     return(
+        <div>
         <div className='about-me'>
             <header className='headers'>Some things about me...</header>
             <p className='about-me-section container-fluid'>
@@ -23,8 +24,13 @@ export default function AboutMe() {
             those sets of skills in the future. I’m excited to have a future, and to keep learning, growing and 
             developing. I find joy in being authentic and life is too short to not do what you love. I love spending
              time with my family and friends and enjoying my hobbies. 
-
             </p>
+        </div>
+        <div className='image-div'> 
+            <img src='https://i.imgur.com/HS3tKUz.png' className='about-me-stuff' />
+            <img src='https://i.imgur.com/W08ECP2.png' className='about-me-stuff'/>
+            <img />
+        </div>
         </div>
     )
 }
