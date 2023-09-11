@@ -13,7 +13,7 @@ export default function Skills() {
     })
 
     return (
-        <>
+        <div className="skills-page">
             <header className='headers skills'>I don't even have any good skills. 
             You know like nunchuck skills, bow hunting skills... </header>
             <p className='sub-header'>But I do have these skills.</p>
@@ -22,6 +22,6 @@ export default function Skills() {
                     {data}
                 </div>
             </div>
-        </>
+        </div>
     )
 }

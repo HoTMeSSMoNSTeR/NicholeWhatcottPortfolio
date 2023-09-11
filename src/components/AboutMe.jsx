@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutMe() {
 
     return(
-        <div>
+        <div className="about-me-page">
         <div className='about-me'>
             <header className='headers'>Some things about me...</header>
             <p className='about-me-section container-fluid'>

@@ -11,11 +11,11 @@ export default function Projects() {
     })
 
     return(
-        <>
-        <header className="headers skills projects-header">Projects</header>
-        <div className="flexbox">
-            {data}
+        <div className="project-page">
+            <header className="headers skills projects-header">Front End Projects</header>
+            <div className="flexbox">
+                {data}
+            </div>
         </div>
-        </>
     )
 }

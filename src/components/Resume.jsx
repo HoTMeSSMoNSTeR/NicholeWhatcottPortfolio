@@ -4,7 +4,7 @@ export default function Resume() {
     
     return (
         <div className='experiences'>
-            <p className='cert-title'>Education & Certification</p>
+            <p className='cert-title headers'>Education & Certification</p>
             <div className='cert'>
                 <img src='https://i.imgur.com/ysRcYh3.png' className='cert-img'/>
                 <p>Front End Developer Bootcamp</p>

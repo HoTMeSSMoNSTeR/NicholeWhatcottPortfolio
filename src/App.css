@@ -6,6 +6,8 @@
 }
 
 
+
+
 .homepage-flex {
   display: flex;
   justify-content: flex-end;
@@ -81,7 +83,7 @@
 }
 
 .skills {
-  margin-top: 7rem;
+  padding-top: 7rem;
   margin-left: 3.5rem;
   margin-bottom: 2.5rem;
 }
@@ -181,7 +183,7 @@
 
 
 .parent {
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 7rem;
   margin-left: 2rem;
 }
@@ -228,6 +230,30 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.project-page {
+  background-image: url(https://i.imgur.com/HFD05Sj.jpg);
+  background-position: cover;
+
+}
+
+.experiences {
+background-image: url(https://i.imgur.com/hNK4cZF.jpg);
+background-position: cover;
+background-repeat: repeat;
+}
+
+.contact-form {
+  padding: 5rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  font-family:'Acme', sans-serif;
+  color:#B02673;
+}
+
+.email-form {
+  margin: 1rem;
 }
 
 @keyframes firstGlitch {
