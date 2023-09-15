@@ -25,13 +25,13 @@ export default function Contact() {
             <div className="contact-header">Please feel free to reach out with any questions or offers!!</div>
             <form ref={form} className="contact-form" id="contact-form" onSubmit={sendEmail}>
                 <label className="form-label email-form" htmlFor="name">
-                    Name: <input type="text" name="from_name" id="name" className="form-control-lg user_name" />
+                    Name & Affiliation: <input type="text" name="from_name" id="name" className="form-control-lg user_name" />
                 </label>
                 <br />
-                <label className="form-label email-form" htmlFor="affil">
+                {/* <label className="form-label email-form" htmlFor="affil">
                     Company/Affiliation: <input type="text" id="affil" className="form-control-lg" />
                 </label>
-                <br />
+                <br /> */}
                 <label className="form-label email-form" htmlFor="email">
                     Email: <input type="email" name="reply_to" className="form-control-lg user_email" id="email" />
                 </label>
