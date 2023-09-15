@@ -2,6 +2,7 @@ import React from 'react';
 import FEProjectArray from './FEProjectArray';
 import ProjectCard from './ProjectCard';
 
+
 export default function Projects() {
     const data = FEProjectArray.map(project => {
         return <ProjectCard 

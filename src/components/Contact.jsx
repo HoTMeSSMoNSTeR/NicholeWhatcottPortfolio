@@ -1,5 +1,6 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import Social from './Social';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -41,6 +42,8 @@ export default function Contact() {
                 </label>
                 <input type="submit" value="Send"/>
             </form>
+                <Social />
+
         </div>
     )
 }
