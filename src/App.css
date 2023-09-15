@@ -149,6 +149,10 @@
   width: 25rem;
 }
 
+.res-img {
+  width: 25rem;
+}
+
 .cert-img:hover {
   width: 40rem;
   box-shadow: -10px -10px 3px #B02673, 10px 10px 3px #26D226;
