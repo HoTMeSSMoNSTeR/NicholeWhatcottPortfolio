@@ -163,6 +163,7 @@
   font-family:'Acme', sans-serif;
   font-size: 2rem;
   color:#B02673;
+  text-shadow: -4px 4px 4px black;
   text-align: center;
 }
 
@@ -184,10 +185,9 @@
 }
 
 
-
 .parent {
   margin-top: 1rem;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
   margin-left: 2rem;
 }
 
@@ -226,6 +226,13 @@
 
 .project-repo:visited {
   color: #26D226;
+}
+
+.project-description {
+  width: 25rem;
+  font-size: x-small;
+  color: whitesmoke;
+  font-family:'Acme', sans-serif;
 }
 
 .flexbox {

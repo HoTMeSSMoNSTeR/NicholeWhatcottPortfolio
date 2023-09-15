@@ -17,6 +17,7 @@ export default  function ProjectCard(props){
             <div className="img-caption">   
                 <p className="project-name"><b>{props.name}</b></p>
                     <p>Github: <a className="project-repo" target={"_blank"} href={props.projectURL}>{props.projectURL}</a></p>
+                    <p className="project-description">{props.description}</p>
             </div>
         </div>
         </>

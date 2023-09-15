@@ -13,7 +13,7 @@ export default function Resume() {
                 <img src='https://i.imgur.com/vibmYd1.jpg' className='cert-img' />
                 <p>Bachelor of Scince in Art</p>
             </div>
-            <div>
+            <div className='cert'>
                 <img src='https://i.imgur.com/HrBGoyQ.png' className='res-img' />
                 <img src='https://i.imgur.com/9DM3HsL.png' className='res-img' />
                 <p>Resume</p>
