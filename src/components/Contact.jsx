@@ -22,8 +22,9 @@ export default function Contact() {
 
 
     return(
-        <div>
+        <div className='container'>
             <div className="contact-header">Please feel free to reach out with any questions or offers!!</div>
+            <div className='form-container container'>
             <form ref={form} className="contact-form" id="contact-form" onSubmit={sendEmail}>
                 <label className="form-label email-form" htmlFor="name">
                     Name & Affiliation: <input type="text" name="from_name" id="name" className="form-control-lg user_name" />
@@ -31,7 +32,7 @@ export default function Contact() {
                 <br />
                 {/* <label className="form-label email-form" htmlFor="affil">
                     Company/Affiliation: <input type="text" id="affil" className="form-control-lg" />
-                </label>
+                    </label>
                 <br /> */}
                 <label className="form-label email-form" htmlFor="email">
                     Email: <input type="email" name="reply_to" className="form-control-lg user_email" id="email" />
@@ -42,6 +43,7 @@ export default function Contact() {
                 </label>
                 <input type="submit" value="Send"/>
             </form>
+                </div>
                 <Social />
 
         </div>
