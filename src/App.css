@@ -7,10 +7,9 @@
 
 .background-home {
     background-image: url("https://i.imgur.com/w3IQvRl.jpg");
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-position: cover;
     margin-top: -2rem;
-    width: 120%;
 }
 
 .homepage-flex {
