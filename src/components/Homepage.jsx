@@ -7,7 +7,7 @@ export default function Homepage() {
 
     return (
       <>
-        <div className='container-fluid background-home '>
+        <div className='container-fluid background-home'>
             <div className='homepage-flex container-fluid'>
                 <p className='intro'>Hi, I'm</p>
                 <p className='name'>Nichole</p>
