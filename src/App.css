@@ -6,9 +6,10 @@
 }
 
 .background-home {
-    background-image: url("https://i.imgur.com/QhnQ8HH.jpg");
+    background-image: url("https://i.imgur.com/w3IQvRl.jpg");
     background-repeat: repeat;
     background-position: cover;
+    margin-top: -2rem;
 }
 
 .homepage-flex {
