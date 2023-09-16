@@ -17,7 +17,9 @@ export default function Homepage() {
                 <p className='intro'>Hi, I'm</p>
                 <p className='name'>Nichole</p>
                 <p className='can-do'>Programmer | Designer | Photographer</p>
-                <img className='avatar img-fluid' src='https://i.imgur.com/2K3Lvht.jpg' />
+                <div className='avatar-container'>
+                  <img className='img-fluid avatar' src='https://i.imgur.com/2K3Lvht.jpg' />
+                </div>
             </div>
 
       </div>

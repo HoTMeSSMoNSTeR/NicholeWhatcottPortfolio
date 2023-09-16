@@ -48,8 +48,11 @@
   text-shadow: -10px 10px 7px #131713;
 }
 
-.avatar {
+.avatar-container {
   width: 14rem;
+}
+
+.avatar {
   margin-top: 8em;
   margin-left: 7rem;
   margin-bottom: 5rem;
