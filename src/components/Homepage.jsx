@@ -16,7 +16,6 @@ export default function Homepage() {
                   <img className='img-fluid avatar' src='https://i.imgur.com/2K3Lvht.jpg' />
                 </div>
             </div>
-
       </div>
       <Social />
       </>
